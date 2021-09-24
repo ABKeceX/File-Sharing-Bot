@@ -16,7 +16,7 @@ from database.sql import add_user, query_msg
 
 
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>Tunggu Dulu Cok...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
@@ -58,11 +58,11 @@ async def start_command(client: Client, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except:
                 return
-        temp_msg = await message.reply("Please wait...")
+        temp_msg = await message.reply("Tunggu Dulu Cok...")
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!")
+            await message.reply_text("Ada Kesalahan Cok..!")
             return
         await temp_msg.delete()
 
@@ -91,8 +91,14 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://telegram.me/PAPIWARPATH/url')],
+                [
+                    InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜  𝙎𝙖𝙮𝙖", callback_data = "about"),
+                    InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
+                [
+                    InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://telegram.me/KDVCHANNELL/url')],
+                [
+                    InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url=f'https://t.me/kenikmatanVirtuall/url'),
                 ]
             ]
         )
@@ -115,7 +121,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "Join Dulu Euy",
                 url = client.invitelink)
         ]
     ]
@@ -123,7 +129,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = 'Coba Lagi',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
@@ -168,7 +174,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcasting Message.. This will Take Some Time</i>")
+        pls_wait = await message.reply("<i>Pesan Broadcast.. Tunggu Sebentar Ya Cok</i>")
         for row in query:
             chat_id = int(row[0])
             try:
@@ -187,7 +193,7 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>Broadcast Completed</u>
+        status = f"""<b><u>Broadcast Berhasil Cuk</u>
 
 Total Users: <code>{total}</code>
 Successful: <code>{successful}</code>
