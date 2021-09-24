@@ -33,6 +33,12 @@ try:
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
+try:
+    ADMINS=[]
+    for x in (os.environ.get("ADMINS", "").split()):
+        ADMINS.append(int(x))
+except ValueError:
+        raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 {first}\n\n<b>Join Dulu Channel/Group Untuk Menggunakan Saya😎\nSilahkan Join Dulu Cikuyy</b>"
