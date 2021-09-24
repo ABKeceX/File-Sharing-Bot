@@ -30,9 +30,9 @@ class Bot(Client):
                 self.invitelink = link
             except Exception as a:
                 self.LOGGER(__name__).warning(a)
-                self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
-                self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
+                self.LOGGER(__name__).warning("Bot Tidak bisa mengekspor link di Force Sub Channel!")
+                self.LOGGER(__name__).warning(f"Silahkan Cek Ulang Apakah ID FORCE_SUB_CHANNEL Benar dan Pastikan Bot Sudah Menjadi Admin Di Channel Di Invite Dengan Izin Link, Force Sub Channel Di: {FORCE_SUB_CHANNEL}")
+                self.LOGGER(__name__).info("\nBot Terhenti. Tanyakan https://t.me/yangmutebabi for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
@@ -41,14 +41,14 @@ class Bot(Client):
             await test.delete()
         except Exception as e:
             self.LOGGER(__name__).warning(e)
-            self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/CodeXBotzSupport for support")
+            self.LOGGER(__name__).warning(f"Pastikan Bot Sudah Admin Di DB Channel, dan cek juga ID Channel Apakah Benar, ID di {CHANNEL_ID}")
+            self.LOGGER(__name__).info("\nBot Terhenti. Tanyakan https://t.me/yangmutebabi for support")
             sys.exit()
 
         self.set_parse_mode("html")
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 𝘾𝙤𝙙𝙚 𝕏 𝘽𝙤𝙩𝙯\nhttps://t.me/CodeXBotz")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by 『A̶̢̹̩̯̗̰̣͔̠͛̐͒͛̐̒̐̌ ̸̝͎̦́̔͠Β̸͌͂̑̆𖣘』乂 K͜͜͡ᴇꮯᴇꪎꤪ\nhttps://t.me/yangmutebabi")
         self.username = usr_bot_me.username
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped.")
+        self.LOGGER(__name__).info("Bot Terhenti.")
