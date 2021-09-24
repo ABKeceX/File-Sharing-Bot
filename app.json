@@ -35,7 +35,7 @@
     },
     "START_MESSAGE": {
       "description": "Pesan Start dari Link, Gunakan HTML format Cok",
-      "value": "Hello {first}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."."
+      "value": "Hello {first}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Force Sub Message dari bot link, gunakan HTML format",
