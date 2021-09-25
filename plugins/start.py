@@ -91,12 +91,15 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/Callmezcow/url')],
+                    InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/yangmutebabi/url')],
                 [
                     InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜  𝙎𝙖𝙮𝙖", callback_data = "about"),
                     InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
                 [
-                    InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://t.me/KostAsupan/url'),
+                    InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏 ", url=f'https://t.me/ExPsychopat/url'),
+                    InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ", url=f'https://t.me/WXShoot/url')],
+                [
+                    InlineKeyboardButton("🔰 𝐆𝐑𝐎𝐔𝐏 ", url=f'https://t.me/joinchat/-ZuZUhoxo9w5MjE5/url'),
                 ]
             ]
         )
