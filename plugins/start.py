@@ -97,6 +97,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
                 [
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ", url=f'https://t.me/tiktokpiral123/url'),
+                ]
             ]
         )
         await message.reply_text(
