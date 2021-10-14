@@ -19,7 +19,7 @@ async def is_subscribed(filter, client, update):
     if user_id in ADMINS:
         return True
     try:
-        member = await client.get_chat_member(chat_id = FORCE_SUB_CHANNEL, user_id = user_id)
+        member = await client.get_chat_member(chat_id = FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL2, FORCE_SUB_CHANNEL3 user_id = user_id)
     except UserNotParticipant:
         return False
 
@@ -75,7 +75,7 @@ async def get_message_id(client, message):
         matches = re.match(pattern,message.text)
         if not matches:
             return 0
-        channel_id = matches.group(3)
+        channel_id = matches.group(1)
         msg_id = int(matches.group(2))
         if channel_id.isdigit():
             if f"-100{channel_id}" == str(client.db_channel.id):
