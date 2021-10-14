@@ -34,6 +34,8 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Silahkan Cek Ulang Apakah ID FORCE_SUB_CHANNEL Benar dan Pastikan Bot Sudah Menjadi Admin Di Channel Di Invite Dengan Izin Link, Force Sub Channel Di: {FORCE_SUB_CHANNEL}")
                 self.LOGGER(__name__).info("\nBot Terhenti. Tanyakan https://t.me/yangmutebabi for support")
                 sys.exit()
+
+            else:
         if FORCE_SUB_CHANNEL2:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL2)
@@ -44,6 +46,8 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(f"Silahkan Cek Ulang Apakah ID FORCE_SUB_CHANNEL2 Benar dan Pastikan Bot Sudah Menjadi Admin Di Channel Di Invite Dengan Izin Link, Force Sub Channel Di: {FORCE_SUB_CHANNEL2}")
                 self.LOGGER(__name__).info("\nBot Terhenti. Tanyakan https://t.me/yangmutebabi for support")
                 sys.exit()
+
+            else:
         if FORCE_SUB_CHANNEL3:
             try:
                 link = await self.export_chat_invite_link(FORCE_SUB_CHANNEL3)
