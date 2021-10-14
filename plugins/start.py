@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-        elif data == "start":
+        if data == "start":
         await query.message.reply_markup = InlineKeyboardMarkup(
             [
                 [
