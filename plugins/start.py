@@ -88,7 +88,8 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-        reply_markup = InlineKeyboardMarkup(
+        elif data == "start":
+        await query.message.reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/gasbakuhantam/url')],
