@@ -22,6 +22,21 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 ]
             )
         )
+    if data == "start":
+            reply_markup = InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/gasbakuhantam/url')],
+                    [
+                        InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜  𝙎𝙖𝙮𝙖", callback_data = "about"),
+                        InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
+                    [
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏  ", url=f'https://t.me/tantekugirang/url')],
+                    [
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/tantekusemok/url'),
+                ]
+            ]
+        )
     elif data == "close":
         await query.message.delete()
         try:
