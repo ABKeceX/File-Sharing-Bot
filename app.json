@@ -15,7 +15,7 @@
     },
     "OWNER_ID": {
       "description": "Masukkan ID Owner/Pemiliknya Cok",
-      "value": "1250450587"
+      "value": "1606695293"
     },
     "APP_ID":{
       "description": "APP ID, Cari Di my.telegram.org",
@@ -30,6 +30,14 @@
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL":{
+      "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL2":{
+      "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL3":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
       "value": "-100"
     },
