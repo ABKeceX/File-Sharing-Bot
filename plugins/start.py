@@ -89,9 +89,7 @@ async def start_command(client: Client, message: Message):
         return
     else:
         if data == "start":
-        await query.message
-        disable_web_page_preview = True,
-         reply_markup = InlineKeyboardMarkup(
+          reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/gasbakuhantam/url')],
