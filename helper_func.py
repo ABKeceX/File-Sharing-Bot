@@ -77,7 +77,7 @@ async def get_message_id(client, message):
         matches = re.match(pattern,message.text)
         if not matches:
             return 0
-        channel_id = matches.group(1)
+        channel_id = matches.group(3)
         msg_id = int(matches.group(2))
         if channel_id.isdigit():
             if f"-100{channel_id}" == str(client.db_channel.id):
