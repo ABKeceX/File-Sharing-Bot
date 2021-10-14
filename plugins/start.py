@@ -80,7 +80,7 @@ async def start_command(client: Client, message: Message):
 
             try:
                 await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = 'html', reply_markup = reply_markup)
-                await asyncio.sleep(0.5)
+                await asyncio.sleep(0)
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 await msg.copy(chat_id=message.from_user.id, caption = caption, parse_mode = 'html', reply_markup = reply_markup)
@@ -121,13 +121,13 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
                 url = client.invitelink),
             InlineKeyboardButton(
-                "𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = client.invitelink)],
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = client.invitelink)],
         [
             InlineKeyboardButton(
-                "𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑",
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑",
                 url = client.invitelink),
         ]
     ]
