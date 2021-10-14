@@ -124,11 +124,11 @@ async def not_joined(client: Client, message: Message):
                 "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
                 url = client.invitelink),
             InlineKeyboardButton(
-                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = client.invitelink)],
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url =f'https://t.me/WXShoot/url')],
         [
             InlineKeyboardButton(
                 "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑",
-                url = client.invitelink),
+                url =f'https://t.me/MyTripFullSange/url'),
         ]
     ]
     try:
