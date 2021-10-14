@@ -9,7 +9,9 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 from pyrogram.errors import FloodWait
 
 async def is_subscribed(filter, client, update):
-    if not FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL2, FORCE_SUB_CHANNEL3:
+    if not FORCE_SUB_CHANNEL,
+    if not FORCE_SUB_CHANNEL2,
+    if not FORCE_SUB_CHANNEL3:
         return True
     user_id = update.from_user.id
     if user_id in ADMINS:
