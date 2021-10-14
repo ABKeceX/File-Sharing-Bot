@@ -88,7 +88,6 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-        if data == "start":
           reply_markup = InlineKeyboardMarkup(
             [
                 [
