@@ -47,6 +47,10 @@ except ValueError:
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝐇𝐞𝐥𝐥𝐨 {first}\n\n<b>Join Dulu Channel/Group Untuk Menggunakan Saya😎\nSilahkan Join Dulu Cikuyy</b>")
 
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE2", "𝐇𝐞𝐥𝐥𝐨 {first}\n\n<b>Join Dulu Channel/Group Untuk Menggunakan Saya😎\nSilahkan Join Dulu Cikuyy</b>")
+
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE3", "𝐇𝐞𝐥𝐥𝐨 {first}\n\n<b>Join Dulu Channel/Group Untuk Menggunakan Saya😎\nSilahkan Join Dulu Cikuyy</b>")
+
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
