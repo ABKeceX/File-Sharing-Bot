@@ -25,7 +25,9 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 
 
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
-async def start_command(client: Client, message: Message, client: Bot, query: CallbackQuery):
+async def start_command(client: Client, message: Message):
+@Bot.on_callback_query()
+async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     id = message.from_user.id
     user_name = '@' + message.from_user.username if message.from_user.username else None
