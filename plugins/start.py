@@ -99,7 +99,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏  ", url=f'https://t.me/Kdvchannel/url'),
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/Asupanksr/url')],
                 [
-                    InlineKeyboardButton("🔰 𝐆𝐑𝐎𝐔𝐏 ", url=f'https://t.me/KdvSexroom/url'),
+                    InlineKeyboardButton("🔰 𝐆𝐑𝐎𝐔𝐏 ", url=f'https://t.me/KdvSexsroom/url'),
                 ]
             ]
         )
@@ -125,7 +125,7 @@ async def not_joined(client: Client, message: Message):
                 "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
                 url = client.invitelink),
             InlineKeyboardButton(
-                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url =f'https://t.me/Kdvsexroom/url'),
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url =f'https://t.me/Kdvsexsroom/url'),
         ]
     ]
     try:
