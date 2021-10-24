@@ -119,9 +119,14 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
+	    InlineKeyboardButton(
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
+                url = client.invitelink),
             InlineKeyboardButton(
-                "JOIN DULU EUY",
-                url = client.invitelink)
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url =f'https://t.me/Expsychopat/url')],
+        [
+            InlineKeyboardButton(
+                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑", url =f'https://t.me/WXShoot/url'),
         ]
     ]
     try:
