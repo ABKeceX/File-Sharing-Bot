@@ -100,7 +100,6 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/WXShoot/url')],
                 [
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑 ", url=f'https://t.me/MyTripFullSange/url'),
-		    InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/joinchat/XfmbRdZdN-pjZGQx/url'),
             ]
             ]
         )
