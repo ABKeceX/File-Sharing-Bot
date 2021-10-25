@@ -95,7 +95,7 @@ async def start_command(client: Client, message: Message):
 		      InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙎𝙖𝙮𝙖", callback_data = "about"),
 		      InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
 		 [
-		      InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://susucapbendera/url')],
+		      InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://t.me/susucapbendera/url')],
 		 [
 		      InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url=f'https://t.me/joinchat/1OyMWhw614M3NGY1/url'),
 	    ]
@@ -124,7 +124,7 @@ async def not_joined(client: Client, message: Message):
                 url = client.invitelink)],
         [
 	    InlineKeyboardButton(
-                "🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url =f'susucapbendera/url'),
+                "🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url =f'https://t.me/susucapbendera/url'),
     	]
     ]
     try:
