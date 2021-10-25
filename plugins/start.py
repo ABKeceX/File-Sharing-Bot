@@ -97,7 +97,7 @@ async def start_command(client: Client, message: Message):
 		 [
 		      InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://t.me/joinchat/v8W-DwSuEElhYmE9/url')],
 		 [
-		      InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url=f'https://t.me/joinchat/QfjAZcII3LE5ODll/url'),
+		      InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url=f'https://t.me/joinchat/1OyMWhw614M3NGY1/url'),
 	    ]
           ]
         )
@@ -124,7 +124,7 @@ async def not_joined(client: Client, message: Message):
                 url = client.invitelink)],
         [
 	    InlineKeyboardButton(
-                "🔰 𝗚𝗥𝗢𝗨𝗣", url =f'https://t.me/joinchat/QfjAZcII3LE5ODll/url'),
+                "🔰 𝗚𝗥𝗢𝗨𝗣", url =f'https://t.me/joinchat/1OyMWhw614M3NGY1/url'),
     	]
     ]
     try:
