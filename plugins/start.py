@@ -95,11 +95,11 @@ async def start_command(client: Client, message: Message):
 		      InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙎𝙖𝙮𝙖", callback_data = "about"),
 		      InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
 		 [
-		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏 ", url=f'https://t.me/tantekugirang/url')],
+		      InlineKeyboardButton("🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ", url=f'https://t.me/joinchat/v8W-DwSuEElhYmE9/url')],
 		 [
-		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ", url=f'https://t.me/tantekusemok/url'),
-            ]
-            ]
+		      InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url=f'https://t.me/joinchat/QfjAZcII3LE5ODll/url'),
+	    ]
+          ]
         )
         await message.reply_text(
             text = START_MSG.format(
@@ -120,9 +120,12 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
 	    InlineKeyboardButton(
-                "JOIN DULU EUY",
-                url = client.invitelink),
-        ]
+                "🔞 𝗖𝗛𝗔𝗡𝗡𝗘𝗟",
+                url = client.invitelink)],
+        [
+	    InlineKeyboardButton(
+                "🔰 𝗚𝗥𝗢𝗨𝗣", url =f'https://t.me/joinchat/QfjAZcII3LE5ODll/url'),
+    	]
     ]
     try:
         buttons.append(
