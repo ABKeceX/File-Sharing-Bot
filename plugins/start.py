@@ -90,14 +90,16 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                  [
-                      InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/itswannacry/url')],
+                      InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/yangmutebabi/url')],
 		 [
 		      InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙎𝙖𝙮𝙖", callback_data = "about"),
 		      InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
 		 [
-		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏 ", url=f'https://t.me/tantegirangnih/url'),
-		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ", url=f'https://t.me/tantesemoknih/url'),
-	         ]
+		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏 ", url=f'https://t.me/Expsychopat/url'),
+		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ", url=f'https://t.me/WXShoot/url')],
+		 [
+		      InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑 ", url=f'https://t.me/MyTripFullSange/url'),
+	   	      InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/joinchat/hb-DAWrzRlwwZjRh/url'),	         ]
             ]
         )
         await message.reply_text(
@@ -120,9 +122,10 @@ async def not_joined(client: Client, message: Message):
         [
 	    InlineKeyboardButton(
                 "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏",
-                url = client.invitelink)],
+                url = client.invitelink),
+            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = f"https://t.me/Expsychopat")],
         [
-            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = f"https://t.me/tantesemoknih/url"),
+            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑", url = f"https://t.me/WXShoot/url"),
     	]
     ]
     try:
