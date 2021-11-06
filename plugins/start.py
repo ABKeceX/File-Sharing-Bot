@@ -1,5 +1,6 @@
 #(©)Codexbotz
 #𖣘Recode By @yangmutebabi
+
 import os
 import asyncio
 from pyrogram import Client, filters, __version__
@@ -118,14 +119,15 @@ async def start_command(client: Client, message: Message):
         )
         return
 
+
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-	    InlineKeyboardButton(
+            InlineKeyboardButton(
                 "JOIN DULU EUY",
-                url = client.invitelink),
-    	]
+                url = client.invitelink)
+        ]
     ]
     try:
         buttons.append(
@@ -169,6 +171,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
+        
         pls_wait = await message.reply("<i>Pesan Broadcast, Ini Membutuhkan waktu</i>")
         for row in query:
             chat_id = int(row[0])
@@ -189,6 +192,7 @@ async def send_text(client: Bot, message: Message):
             total += 1
         
         status = f"""<b><u>Broadcast Berhasil Cuk</u>
+
 Total Users: <code>{total}</code>
 Successful: <code>{successful}</code>
 Blocked Users: <code>{blocked}</code>
