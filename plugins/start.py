@@ -90,8 +90,8 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                 [
-                        InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/yangmutebabi/url')],
+                [
+                    InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/yangmutebabi/url')],
                 [
                     InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜  𝙎𝙖𝙮𝙖", callback_data = "about"),
                     InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
@@ -101,7 +101,7 @@ async def start_command(client: Client, message: Message):
                 [
                     InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟑 ", url=f'https://t.me/MyTripFullSange/url'),
                     InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/joinchat/hb-DAWrzRlwwZjRh/url'),
-	         ]
+	        ]
             ]
         )
         await message.reply_text(
