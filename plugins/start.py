@@ -98,7 +98,7 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
                     [
                         InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏  ", url=f'https://t.me/KDVCHANNELL/url'),
-                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/ASUPANKSR/url')],              [
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/ASUPANKSR/url')],
                     [
                         InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/KDVSexsRoom/url'),
 	        ]
