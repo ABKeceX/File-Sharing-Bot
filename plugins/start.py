@@ -92,14 +92,14 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/gasbakuhantam/url')],
-                    [
-                        InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜  𝙎𝙖𝙮𝙖", callback_data = "about"),
+                        InlineKeyboardButton("🔱 𝐎𝐖𝐍𝐄𝐑", url=f'https://t.me/Densuss_86/url')],
+                [       
+                        InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙎𝙖𝙮𝙖", callback_data = "about"),
                         InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
-                    [
-                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏  ", url=f'https://t.me/tantegirangnih/url')],
-                    [
-                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐  ", url=f'https://t.me/testipopcorn/url'),
+                [
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ", url=f'https://t.me/joinchat/eQgPY7ctmzw0N2Vl/url')],
+                [
+                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/KisahVirtual72/url'),
 	        ]
             ]
         )
@@ -123,9 +123,8 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏 ",
+                "JOIN DULU EUY",
                 url = client.invitelink),
-            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐 ", url = f"https://t.me/testipopcorn"),
         ]
     ]
     try:
