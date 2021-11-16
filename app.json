@@ -11,39 +11,43 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Token Bot Kau, Dapatkan Di @Botfather",
-      "value": ""
+      "value": "2120816046:AAGN84SZOI9D_s3WczWOGdmh99Ly64QX-IY"
     },
     "OWNER_ID": {
       "description": "Masukkan ID Owner/Pemiliknya Cok",
-      "value": "1606695293"
+      "value": "1606695293 1884939094"
     },
     "APP_ID":{
       "description": "APP ID, Cari Di my.telegram.org",
-      "value": ""
+      "value": "7692335"
     },
     "API_HASH":{
       "description": "API Hash, Cari juga di my.telegram.org",
-      "value": ""
+      "value": "f027102d9075b41ce67892dd69b6c4d2"
     },
     "CHANNEL_ID":{
       "description": "Buat Channel DB/Tumbal Lalu masukkan bot dan jadikan Admin, Masukkan ID CH Kesini",
-      "value": "-100"
+      "value": "-1001748992093"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-100"
+      "value": "-1001672956158"
     },
     "FORCE_SUB_CHANNEL2":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-100"
+      "value": "-1001667439592"
     },
     "FORCE_SUB_CHANNEL3":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-100"
+      "value": "-1001180720148"
+    },
+    "FORCE_SUB_CHANNEL4":{
+      "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
+      "value": "-1001336021865"
     },
     "START_MESSAGE": {
       "description": "Pesan Start dari Link, Gunakan HTML format Cok",
-      "value": "Hello {first}\n\nSaya dapat menyimpan file pribadi di Saluran Tertentu dan pengguna lain dapat mengaksesnya dari tautan khusus."
+      "value": "𝐇𝐞𝐥𝐥𝐨 {first} 𝑺𝒂𝒚𝒂 𝒅𝒂𝒑𝒂𝒕 𝒎𝒆𝒏𝒚𝒊𝒎𝒑𝒂𝒏 𝒇𝒊𝒍𝒆 𝒑𝒓𝒊𝒃𝒂𝒅𝒊 𝒅𝒊 𝒔𝒊𝒏𝒊 𝒅𝒂𝒏 𝒑𝒆𝒏𝒈𝒈𝒖𝒏𝒂 𝒍𝒂𝒊𝒏 𝒅𝒂𝒑𝒂𝒕 𝒎𝒆𝒏𝒈𝒂𝒌𝒔𝒆𝒔𝒏𝒚𝒂 𝒅𝒂𝒓𝒊 𝒕𝒂𝒖𝒕𝒂𝒏 𝒌𝒉𝒖𝒔𝒖𝒔. 𝙎𝙖𝙮𝙖 𝙝𝙖𝙣𝙮𝙖 𝙗𝙤𝙩, 𝙮𝙖𝙣𝙜 𝙢𝙚𝙣𝙜𝙞𝙧𝙞𝙢𝙠𝙖𝙣 𝙛𝙞𝙡𝙚. ㅤㅤㅤㅤㅤㅤㅤㅤㅤ𝐄𝐍𝐉𝐎𝐘"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Force Sub Message dari bot link, gunakan HTML format",
@@ -51,7 +55,7 @@
     },
     "ADMINS": {
       "description": "ID Admins Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
-      "value": "",
+      "value": "1622181060 1820933837 1719540610",
       "required": false
     }
   },
