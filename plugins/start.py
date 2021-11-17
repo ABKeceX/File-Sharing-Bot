@@ -97,9 +97,11 @@ async def start_command(client: Client, message: Message):
                         InlineKeyboardButton("😎 𝙏𝙚𝙣𝙩𝙖𝙣𝙜 𝙎𝙖𝙮𝙖", callback_data = "about"),
                         InlineKeyboardButton("❌ 𝗧𝗨𝗧𝗨𝗣 𝗘𝗨𝗬", callback_data = "close")],
                 [
-                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f'https://t.me/BOKEPVIRALID1/url')],
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏", url=f'https://t.me/bokepviralid26/url'),
+                        InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url=f'https://t.me/bokepviralid88/url')],
                 [
-                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/Wearekamikaze/url'),
+                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 𝟏", url=f'https://t.me/Wearekamikaze/url'),
+                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 𝟐", url=f'https://t.me/asramaputriii/url'),
 	        ]
             ]
         )
@@ -122,9 +124,11 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣", url = client.invitelink)],
+            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟏", url = client.invitelink),
+            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝟐", url = f"https://t.me/bokepviralid88/url")],
         [
-            InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url = f"https://t.me/bokepviralid1/url"),
+            InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 𝟏", url = f"https://t.me/wearekamikaze/url"),
+            InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 𝟐", url = f"https://t.me/asramaputriii/url"),
         ]
     ]
     try:
