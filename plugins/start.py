@@ -99,7 +99,7 @@ async def start_command(client: Client, message: Message):
                 [
                         InlineKeyboardButton("🔞 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ", url=f'https://t.me/BOKEPVIRALID1/url')],
                 [
-                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/joinchat/QfjAZcII3LE5ODll/url'),
+                        InlineKeyboardButton("🔰 𝗚𝗥𝗢𝗨𝗣 ", url=f'https://t.me/Wearekamikaze/url'),
 	        ]
             ]
         )
