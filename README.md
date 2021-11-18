@@ -127,5 +127,5 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 ##
 
-   **Star this Repo if you Liked it ⭐⭐⭐**
+   **[Star](https://github.com/ABKeceX/File-Sharing-Bot/stargazers) this Repo if you Liked it ⭐⭐⭐**
 
