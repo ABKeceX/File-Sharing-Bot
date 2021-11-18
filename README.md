@@ -15,7 +15,7 @@
   </a>
   <br>
   <a href="https://github.com/ABKeceX/File-Sharing-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/CodeXBotz/File-Sharing-Bot?style=social">
+    <img src="https://img.shields.io/github/stars/ABKeceX/File-Sharing-Bot?style=social">
   </a>
   <a href="https://github.com/CodeXBot/File-Sharing-Bot/fork">
     <img src="https://img.shields.io/github/forks/CodeXBotz/File-Sharing-Bot?label=Fork&style=social">
