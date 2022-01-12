@@ -11,39 +11,31 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Token Bot Kau, Dapatkan Di @Botfather",
-      "value": "2120816046:AAGN84SZOI9D_s3WczWOGdmh99Ly64QX-IY"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Masukkan ID Owner/Pemiliknya Cok",
-      "value": "1606695293 1884939094"
+      "value": ""
     },
     "APP_ID":{
       "description": "APP ID, Cari Di my.telegram.org",
-      "value": "7692335"
+      "value": ""
     },
     "API_HASH":{
       "description": "API Hash, Cari juga di my.telegram.org",
-      "value": "f027102d9075b41ce67892dd69b6c4d2"
+      "value": ""
     },
     "CHANNEL_ID":{
       "description": "Buat Channel DB/Tumbal Lalu masukkan bot dan jadikan Admin, Masukkan ID CH Kesini",
-      "value": "-1001748992093"
+      "value": ""
     },
     "FORCE_SUB_CHANNEL":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-1001672956158"
+      "value": ""
     },
     "FORCE_SUB_CHANNEL2":{
       "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-1001667439592"
-    },
-    "FORCE_SUB_CHANNEL3":{
-      "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-1001180720148"
-    },
-    "FORCE_SUB_CHANNEL4":{
-      "description": "Masukkan ID Channel / Group, Jika ingin mengaktifkan/menonaktifkan forcesub di masukkan 0 saja.",
-      "value": "-1001336021865"
+      "value": ""
     },
     "START_MESSAGE": {
       "description": "Pesan Start dari Link, Gunakan HTML format Cok",
@@ -55,7 +47,7 @@
     },
     "ADMINS": {
       "description": "ID Admins Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
-      "value": "1622181060 1820933837 1719540610",
+      "value": "",
       "required": false
     }
   },
