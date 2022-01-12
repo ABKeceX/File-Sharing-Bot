@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://heroku.com/deploy?template=https://github.com/ABKeceX/File-Sharing-Bot",
+  "repository": "https://github.com/ABKeceX/File-Sharing-Bot",
   "logo": "https://telegra.ph/file/1cdbbd432ccb206eb4c9b.jpg",
   "env": {
     "TG_BOT_TOKEN": {
