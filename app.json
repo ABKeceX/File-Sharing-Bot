@@ -49,6 +49,11 @@
       "description": "ID Admins Channel Untuk Membantu Owner Membuat Link, Hanya Bisa Membuat Link",
       "value": "",
       "required": false
+    },
+    "PROTECT_CONTENT": {
+      "description": "Protect contents from getting forwarded",
+      "value": "False",
+      "required": false
     }
   },
   "addons": [
